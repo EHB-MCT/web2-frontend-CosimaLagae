@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
-
+    <link rel="stylesheet" href="./style.css">
     <title>Nightshop love</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #map {
+            height: 100vh;
+            width: 100vw; 
+        }
+    </style>
+    <script src="./script.js"></script>
 </head>
 <body>
-    <div id='map' style='width: 400px; height: 300px;'></div>
-    <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiY29zaW1hcm9zaWUiLCJhIjoiY2t1d3BtYnF4MDZrcTJucXFoNGN1M3hkaCJ9.RgMCkP3mQoUKWG2O5Rw4Fw';
-    var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11'
-    });
-    </script>
-
+    <div id='map'></div>
 </body>
 </html>
