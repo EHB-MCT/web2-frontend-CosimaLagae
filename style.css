@@ -2,13 +2,23 @@ body {
     margin: 0;
 }
 #map {
-    height: 100%;
-    width: 100%; 
-}
-
-#aroundMap {
+display: block;
     height: 30vw;
     width: 60vw;
-    margin-top: 9%;
     margin-left: 20%;
+}
+
+.yellow1{
+    background: yellow;
+    width: 32vw;
+    height: 15vh;
+}
+
+p{
+    margin: 0;
+}
+.red1{
+    background: red;
+    width: 38vw;
+    height: 5vh;
 }
