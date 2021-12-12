@@ -5,13 +5,22 @@ body {
     position: absolute;
     height: 30vw;
     width: 60vw;
-    margin-left: 20%;
+    margin-left: 19vw;
 }
 p{
     margin: 0;
 }
 main{
     display: flex;
+}
+#blue {
+    background: blue;
+}
+#red{
+    background: red;
+}
+#yellow{
+    background: yellow;
 }
 
 /*  upper animation*/
@@ -125,12 +134,12 @@ main{
 }
 .blue6{
     background: blue;
-    width: auto;
+    width: 7vw;
     height: 15.85vh;
 }
 .yellow5{
     background: yellow;
-    width: 8vw;
+    width: 7vw;
     height: 48vh;
 }
 .yellow6{
@@ -140,6 +149,54 @@ main{
 }
 .redyellowblue{
     width: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  right animation*/
+.containerRight{
+    display: flex;
+    margin-left: 59vw;
+    width: 20.9vw;
+}
+.blue7{
+    width: 7vw;
+    height: 15.85vh;
+}
+.blue8{
+    width: 3vw;
+    height: 23.85vh;
+}
+.blue9{
+    height: 30vh;
+    width: 5vw;
+
+}
+.red7{
+    width: 5vw;
+    height: 33.85vh;
+}
+.red8{
+    width: 9vw;
+    height: 40vh;
+}
+.yellow7{
+    width: 5.9vw;
+    height: 23.85vh;
+}
+.yellow8{
+    position: absolute;
+    margin-top: 15.85vh;
+    width: 7vw;
+    height: 48vh;
+}
+
+.blueyellowred{
+    display: flex;
+    flex-wrap: wrap;
+    width: 9vw;
+}
+.blueyellow{
     display: flex;
     flex-wrap: wrap;
 }
