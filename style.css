@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 .map {
-    display: block;
     position: absolute;
     height: 30vw;
     width: 60vw;
@@ -11,8 +10,11 @@ body {
 p{
     margin: 0;
 }
+main{
+    display: flex;
+}
 
-/*  HORIZONTAL UPPER BAR*/
+/*  upper animation*/
 
 .container1{
     display: flex;
@@ -95,6 +97,53 @@ p{
     display: flex;
     flex-wrap: flex;
 }
+/*  left animation*/
+
+.containerLeft{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20vw;
+}
+.red5{
+    background: red;
+    width: 7vw;
+    height: 40vh;
+}
+.red6{
+    background: red;
+    width: 5vw;
+    height: 33.85vh;
+}
+.blue4{
+    background: blue;
+    height: 30vh;
+    width: 5vw;
+}
+.blue5{
+    background: blue;
+    width: 3vw;
+}
+.blue6{
+    background: blue;
+    width: auto;
+    height: 15.85vh;
+}
+.yellow5{
+    background: yellow;
+    width: 8vw;
+    height: 48vh;
+}
+.yellow6{
+    background: yellow;
+    width: 4vw;
+    height: 23.85vh;
+}
+.redyellowblue{
+    width: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 
 /*  NAVIGATION CONTROLS */
