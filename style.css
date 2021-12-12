@@ -36,22 +36,18 @@ footer{
     height: 20vh;
 }
 .yellow1{
-    background: yellow;
     width: 32vw;
     height: 13.3vh;
 }
 .yellow2{
-    background: yellow;
     width: 34vw;
     height: 6.6vh;
 }
 .yellow3{
-    background: yellow;
     width: 11vw;
     height: 6.6vh;
 }
 .yellow4{
-    background: yellow;
     position: absolute;
     width: 12.5vw;
     height: 6.79vh;
@@ -60,24 +56,20 @@ footer{
 
 }
 .red1{
-    background: red;
     width: 34vw;
     height: 6.6vh;
 }
 .red2{
-    background: red;
     position: absolute;
     width: 28vw;
     margin-left: 20vw;
     height: 13.4vh;
 }
 .red3{
-    background: red;
     width: 23vw;
     height: 6.6vh;
 }
 .red4{
-    background: red;
     position: absolute;
     width: 7.5vw;
     height: 6.79vh;
@@ -85,17 +77,14 @@ footer{
     margin-top: -0.1%;
 }
 .blue1{
-    background: blue;
     width: 20vw;
     height: 6.7vh;
 }
 .blue2{
-    background: blue;
     width: 18vw;
     height: 6.6vh;
 }
 .blue3{
-    background: blue;
     position: absolute;
     margin-left: 48vw;
     width: 20vw;
@@ -118,36 +107,29 @@ footer{
     width: 20vw;
 }
 .red5{
-    background: red;
     width: 7vw;
     height: 40vh;
 }
 .red6{
-    background: red;
     width: 5vw;
     height: 33.85vh;
 }
 .blue4{
-    background: blue;
     height: 30vh;
     width: 5vw;
 }
 .blue5{
-    background: blue;
     width: 3vw;
 }
 .blue6{
-    background: blue;
     width: 7vw;
     height: 15.85vh;
 }
 .yellow5{
-    background: yellow;
     width: 7vw;
     height: 48vh;
 }
 .yellow6{
-    background: yellow;
     width: 4vw;
     height: 23.85vh;
 }
