@@ -13,6 +13,10 @@ p{
 main{
     display: flex;
 }
+footer{
+    display: flex;
+    width: 100vw;
+}
 #blue {
     background: blue;
 }
@@ -181,7 +185,7 @@ main{
     height: 40vh;
 }
 .yellow7{
-    width: 5.9vw;
+    width: 6vw;
     height: 23.85vh;
 }
 .yellow8{
@@ -201,8 +205,53 @@ main{
     flex-wrap: wrap;
 }
 
-
-
+/*  bottom animation*/
+.redyellowblue2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 19vw;
+    height: 16vh;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 47vw;
+}
+.red9{
+    width: 7vw;
+    height: 7vh;
+}
+.red10{
+    width: 34vw;
+}
+.red11{
+    height: 7vh;
+    width: 23vw;
+}
+.yellow9{
+    width: 12vw;
+    height: 7vh;
+}
+.yellow10{
+    height: 7vh;
+    width: 10vw;
+}
+.yellow11{
+    height: 9.1vh;
+    width: 29vw;
+}
+.blue10{
+    width: 19vw;
+    height: 9vh
+}
+.blue11{
+    height: 7vh;
+    width: 14vw;
+}
+.blue12{
+    height: 9.1vh;
+    width: 18vw;
+}
 /*  NAVIGATION CONTROLS */
 .mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon,
 .mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
