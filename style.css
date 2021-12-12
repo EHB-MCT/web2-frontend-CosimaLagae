@@ -1,24 +1,97 @@
 body {
     margin: 0;
 }
-#map {
-display: block;
+.map {
+    display: block;
+    position: absolute;
     height: 30vw;
     width: 60vw;
     margin-left: 20%;
 }
-
-.yellow1{
-    background: yellow;
-    width: 32vw;
-    height: 15vh;
-}
-
 p{
     margin: 0;
 }
+
+/*  HORIZONTAL UPPER BAR*/
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 20vh;
+}
+.yellow1{
+    background: yellow;
+    width: 32vw;
+    height: 13.3vh;
+}
+.yellow2{
+    background: yellow;
+    width: 34vw;
+    height: 6.6vh;
+}
+.yellow3{
+    background: yellow;
+    width: 11vw;
+    height: 6.6vh;
+}
+.yellow4{
+    background: yellow;
+    position: absolute;
+    width: 12.5vw;
+    height: 6.79vh;
+    margin-left: 39vw;
+    margin-top: -0.1%;
+
+}
 .red1{
     background: red;
-    width: 38vw;
-    height: 5vh;
+    width: 34vw;
+    height: 6.6vh;
+}
+.red2{
+    background: red;
+    position: absolute;
+    width: 28vw;
+    margin-left: 20vw;
+    height: 13.4vh;
+}
+.red3{
+    background: red;
+    width: 23vw;
+    height: 6.6vh;
+}
+.red4{
+    background: red;
+    position: absolute;
+    width: 7.5vw;
+    height: 6.79vh;
+    margin-left: 51.5vw;
+    margin-top: -0.1%;
+}
+.blue1{
+    background: blue;
+    width: 20vw;
+    height: 6.7vh;
+}
+.blue2{
+    background: blue;
+    width: 18vw;
+    height: 6.6vh;
+}
+.blue3{
+    background: blue;
+    position: absolute;
+    margin-left: 48vw;
+    width: 20vw;
+    height: 6.6vh;
+}
+
+.bluered{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yellow34{
+    display: flex;
+    flex-wrap: flex;
 }
