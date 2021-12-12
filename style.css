@@ -39,6 +39,11 @@ footer{
     width: 32vw;
     height: 13.3vh;
 }
+.yellow1 p{
+    margin: 0;
+    font-family: "berlin";
+    font-size: 5vw;
+}
 .yellow2{
     width: 34vw;
     height: 6.6vh;
