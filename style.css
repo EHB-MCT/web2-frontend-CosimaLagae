@@ -35,65 +35,123 @@ footer{
     width: 100vw;
     height: 20vh;
 }
-.yellow1{
+.drank{
     width: 32vw;
     height: 13.3vh;
 }
-.yellow1 p{
+.drank p{
     margin: 0;
     font-family: "berlin";
-    font-size: 5vw;
+    color: red;
+    font-size: 15.5vh;
+    margin-top: -2vh;
 }
-.yellow2{
+.tabak{
     width: 34vw;
     height: 6.6vh;
 }
-.yellow3{
+.tabak p{
+    font-family: "Syncopate";
+    font-size: 7vh;
+    color: red;
+}
+.pizza{
     width: 11vw;
     height: 6.6vh;
 }
-.yellow4{
+.pizza p{
+    font-family: "stencilulregular";
+    font-size: 6vh;
+    color: red;
+    margin-top: -1.5vh;
+}
+.tipjes{
     position: absolute;
     width: 12.5vw;
     height: 6.79vh;
     margin-left: 39vw;
     margin-top: -0.1%;
-
 }
-.red1{
+.tipjes p{
+    font-family: "ribesblack";
+    font-size: 5.5vh;
+    color: red;
+}
+.nightshop{
     width: 34vw;
     height: 6.6vh;
 }
-.red2{
+.nightshop p{
+    font-family: "lignette";
+    font-size: 5.3vh;
+    color: blue;
+}
+.samosa{
     position: absolute;
     width: 28vw;
     margin-left: 20vw;
     height: 13.4vh;
 }
-.red3{
+.samosa p{
+    font-family: "blenny";
+    font-size: 17vh;
+    color: blue;
+    margin-top: -8.7vh;
+}
+.chips{
     width: 23vw;
     height: 6.6vh;
 }
-.red4{
+.chips p {
+    font-family: "tephra";
+    font-size: 7vh;
+    color: blue;
+    margin-top: -1.4vh;
+}
+.fristi{
     position: absolute;
     width: 7.5vw;
     height: 6.79vh;
     margin-left: 51.5vw;
     margin-top: -0.1%;
 }
-.blue1{
+.fristi p {
+    font-family: "engel";
+    font-size: 6vh;
+    color: blue;
+    margin-top: 0.8vh;
+}
+.alcohol{
     width: 20vw;
     height: 6.7vh;
 }
-.blue2{
+.alcohol p{
+    font-family: "naivregular";
+    font-size: 6.3vh;
+    color: yellow;
+    margin-top: -0.5vh;
+}
+.fris{
     width: 18vw;
     height: 6.6vh;
 }
-.blue3{
+.fris p {
+    font-family: "neorange";
+    font-size: 6.5vh;
+    color: yellow;
+    margin-top: -0.4vh;
+}
+.rol{
     position: absolute;
     margin-left: 48vw;
     width: 20vw;
     height: 6.6vh;
+}
+.rol p{
+    color: yellow;
+    font-family: "hvd";
+    font-size: 7vh;
+    margin-top: -1.5vh;
 }
 
 .bluered{
@@ -111,9 +169,16 @@ footer{
     flex-wrap: wrap;
     width: 20vw;
 }
-.red5{
+/*.containerLeft p{
+    transform: rotate(270deg)}*/
+
+.pepsi{
     width: 7vw;
     height: 40vh;
+}
+.pepsi p{
+    font-family: "blenny";
+    font-size: 1vw;
 }
 .red6{
     width: 5vw;
