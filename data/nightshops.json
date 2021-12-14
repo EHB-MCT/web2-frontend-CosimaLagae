@@ -1,0 +1,14 @@
+{"_id":{"$oid":"61af2db7b7ceb80c70c2f00f"},
+"name":"paki love",
+"adress":"Rue de Flandre 11, 1000 Bruxelles",
+"samosa":true},
+
+{"_id":{"$oid":"61af2e3cb7ceb80c70c2f010"},
+"name":"White Night Sainte-Catherine",
+"adress":"Rue Sainte-Catherine 25, 1000 Bruxelles",
+"samosa":false},
+
+{"_id":{"$oid":"61af38adfba338c40d8c005f"},
+"name":"Night store",
+"adress":"Quai aux Barques 1, 1000 Bruxelles",
+"samosa":false}
