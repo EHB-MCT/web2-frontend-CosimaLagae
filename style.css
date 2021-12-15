@@ -284,9 +284,6 @@ footer{
     flex-wrap: wrap;
     width: 20vw;
 }
-/*.containerLeft p{
-    */
-
 .pepsi{
     width: 7vw;
     height: 40vh;
@@ -346,7 +343,6 @@ footer{
     transform: rotate(270deg);
     margin-bottom: 19vh;
 }
-
 .lays{
     width: 3vw;
     height: 23.8vh;
@@ -454,42 +450,146 @@ footer{
     margin-left: 59vw;
     width: 20.9vw;
 }
-.blue7{
+.choufke{
     width: 7vw;
     height: 15.85vh;
+    overflow: hidden;
 }
-.blue8{
+.choufke div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee3 6s linear infinite;
+    animation-play-state: running;
+}
+.choufke p{
+    font-family: "naiv";
+    font-size: 7vw;
+
+    margin-right: 1vw;
+
+    transform: rotate(90deg);
+    margin-bottom: 50vh;
+}
+.sig{
     width: 3vw;
     height: 23.85vh;
+    overflow: hidden;
 }
-.blue9{
+.sig div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee33 6s linear infinite;
+    animation-play-state: running;
+}
+.sig p{
+    font-family: "ribesblack";
+    font-size: 3.5vw;
+
+    transform: rotate(90deg);
+    margin-bottom: 40vh;
+}
+.snoep{
     height: 30vh;
     width: 5vw;
 
+    overflow: hidden;
 }
-.red7{
+.snoep div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee33 6s linear infinite;
+    animation-play-state: running;
+}
+.snoep p{
+    font-family: "tephra";
+    font-size: 5.3vw;
+
+    transform: rotate(90deg);
+    margin-bottom: 40vh;
+    margin-right: 0.3vw;
+
+}
+.wc{
     width: 5vw;
     height: 33.85vh;
+    overflow: hidden;
+}
+.wc div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee33 6s linear infinite;
+    animation-play-state: running;
+}
+.wc p{
+    font-family: "lignette";
+    font-size: 5.3vw;
+
+    transform: rotate(90deg);
+    margin-bottom: 50vh;
+    margin-right: 1.5vw;
 }
 .royco{
     position: absolute;
     margin-top: 23.8vh;
     width: 9vw;
     height: 40vh;
+    overflow: hidden;
 }
-.yellow7{
+.royco div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee33 6s linear infinite;
+    animation-play-state: running;
+}
+.royco p{
+    font-family: "blenny";
+    font-size: 10vw;
+
+    transform: rotate(90deg);
+    margin-bottom: 25vh;
+    margin-right: 1.3vw;
+}
+.redbull{
     position: absolute;
     margin-left: 3vw;
     width: 6vw;
     height: 23.85vh;
+    overflow: hidden;
 }
-.yellow8{
+.redbull div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee333 6s linear infinite;
+    animation-play-state: running; 
+}
+.redbull p{
+    font-family: "syncopate";
+    font-size: 7.5vw;
+
+    transform: rotate(90deg);
+    margin-bottom: 95vh;
+    margin-right: 0.9vw;
+}
+.ijs{
     position: absolute;
     margin-top: 15.85vh;
     width: 7vw;
     height: 48vh;
+    overflow: hidden;
 }
+.ijs div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee3333 6s linear infinite;
+    animation-play-state: running; 
+}
+.ijs p{
+    font-family: "berlin";
+    font-size: 7.5vw;
 
+    transform: rotate(90deg);
+    margin-bottom: 25vh;
+}
 .blueyellowred{
     display: flex;
     flex-wrap: wrap;
@@ -499,7 +599,20 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
-
+@keyframes marquee3 {
+    0% { top: 50%; }
+    100% { top: -600%; }
+}@keyframes marquee33 {
+    0% { top: 0%; }
+    100% { top: -400%; }
+}
+@keyframes marquee333 {
+    0% { top: 0%; }
+    100% { top: -600%; }
+}@keyframes marquee3333 {
+    0% { top: 0%; }
+    100% { top: -300%; }
+}
 /*  bottom animation*/
 .redyellowblue2{
     display: flex;
