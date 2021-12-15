@@ -10,11 +10,12 @@ https://docs.mapbox.com/playground/geocoding/?search_text=-74.00550144386382,40.
 Marquee inspo for the code:
 https://codepen.io/jamesbarnett/pen/kfmKa
 
+&nbsp
+
 
 
 .drank{
     overflow: hidden;
-
 }
 .drank div{
     display: flex;
@@ -23,6 +24,22 @@ https://codepen.io/jamesbarnett/pen/kfmKa
     transform: translate3d(var(--move-initial), 0, 0);
     animation: marquee 5s linear infinite;
     animation-play-state: running;
+
+    //left
+    
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee2 5s linear infinite;
+    animation-play-state: running;
+}
+
+.drank p{
+    padding-bottom: 16vh;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    margin-left: -4vw;
+
+
 }
 
 @keyframes marquee {

@@ -21,11 +21,20 @@ footer{
 #blue {
     background: blue;
 }
+#blue p {
+    color: yellow;
+}
 #red{
     background: red;
 }
+#red p {
+    color: blue;
+}
 #yellow{
     background: yellow;
+}
+#yellow p {
+    color: red;
 }
 
 /*  upper animation*/
@@ -53,13 +62,11 @@ footer{
 .drank p{
     margin: 0;
     font-family: "berlin";
-    color: red;
     font-size: 15.5vh;
     margin-top: -2vh;
 
     float: left;
 }
-
 .tabak{
     width: 34vw;
     height: 6.6vh;
@@ -76,7 +83,6 @@ footer{
 .tabak p{
     font-family: "Syncopate";
     font-size: 7vh;
-    color: red;
 }
 .pizza{
     width: 11vw;
@@ -95,7 +101,6 @@ footer{
 .pizza p{
     font-family: "stencilulregular";
     font-size: 6vh;
-    color: red;
     margin-top: -1.5vh;
 }
 .tipjes{
@@ -118,7 +123,6 @@ footer{
 .tipjes p{
     font-family: "ribesblack";
     font-size: 5.5vh;
-    color: red;
 }
 .nightshop{
     width: 34vw;
@@ -138,7 +142,6 @@ footer{
 .nightshop p{
     font-family: "lignette";
     font-size: 5.3vh;
-    color: blue;
 }
 .samosa{
     position: absolute;
@@ -159,7 +162,6 @@ footer{
 .samosa p{
     font-family: "blenny";
     font-size: 17vh;
-    color: blue;
     margin-top: -8.7vh;
 }
 .chips{
@@ -179,7 +181,6 @@ footer{
 .chips p {
     font-family: "tephra";
     font-size: 7vh;
-    color: blue;
     margin-top: -1.4vh;
 }
 .fristi{
@@ -202,7 +203,6 @@ footer{
 .fristi p {
     font-family: "engel";
     font-size: 6vh;
-    color: blue;
     margin-top: 1vh;
 }
 .alcohol{
@@ -223,7 +223,6 @@ footer{
 .alcohol p{
     font-family: "naivregular";
     font-size: 6.3vh;
-    color: yellow;
     margin-top: -0.5vh;
 }
 .fris{
@@ -242,7 +241,6 @@ footer{
 .fris p {
     font-family: "neorange";
     font-size: 6.5vh;
-    color: yellow;
     margin-top: -0.4vh;
 
 }
@@ -263,12 +261,10 @@ footer{
     animation-play-state: running;
 }
 .rol p{
-    color: yellow;
     font-family: "hvd";
     font-size: 7vh;
     margin-top: -1.5vh;
 }
-
 .bluered{
     display: flex;
     flex-wrap: wrap;
@@ -277,7 +273,6 @@ footer{
     display: flex;
     flex-wrap: flex;
 }
-
 @keyframes marquee1 {
     0% { left: -50%; }
     100% { left: -150%; }
@@ -290,38 +285,143 @@ footer{
     width: 20vw;
 }
 /*.containerLeft p{
-    transform: rotate(270deg)}*/
+    */
 
 .pepsi{
     width: 7vw;
     height: 40vh;
+    overflow: hidden;
+}
+.pepsi div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee2 5s linear infinite;
+    animation-play-state: running;
+
 }
 .pepsi p{
+    padding-bottom: 16vh;
     font-family: "blenny";
-    font-size: 1vw;
+    font-size: 8vW;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    margin-left: -4vw;
+
 }
-.red6{
+.cara{
     width: 5vw;
     height: 33.85vh;
+
+    overflow: hidden;
 }
-.blue4{
+.cara div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee222 6s linear infinite;
+    animation-play-state: running;
+}
+.cara p{
+    font-family: "lignette";
+    font-size: 6vw;
+    margin-left: 1.5vw;
+    transform: rotate(270deg);
+    margin-bottom: 16vh;
+}
+.fanta{
     height: 30vh;
     width: 5vw;
+    overflow: hidden;
 }
-.blue5{
+.fanta div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee222 6s linear infinite;
+    animation-play-state: running;
+}
+.fanta p{
+    font-family: "tephra";
+    margin-left: 0.5vw;
+    font-size: 5vw;
+
+    transform: rotate(270deg);
+    margin-bottom: 19vh;
+}
+
+.lays{
     width: 3vw;
+    height: 23.8vh;
+    overflow: hidden;
+
 }
-.blue6{
+.lays div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee222 6s linear infinite;
+    animation-play-state: running;
+}
+.lays p{
+    font-family: "ribesblack";
+    font-size: 3vw;
+    margin-left: 0.2vw;
+
+    transform: rotate(270deg);
+    margin-bottom: 10vh;
+}
+.rizla{
     width: 7vw;
     height: 15.85vh;
+    overflow: hidden;
 }
-.yellow5{
+.rizla div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee2222 6s linear infinite;
+    animation-play-state: running;
+}
+.rizla p{
+    font-family: "naiv";
+    font-size: 7.5vw;
+
+    margin-left: 1vw;
+    transform: rotate(270deg);
+    margin-bottom: 35vh;
+}
+.coca{
     width: 7vw;
     height: 48vh;
+    overflow: hidden;
 }
-.yellow6{
+.coca div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee222 6s linear infinite;
+    animation-play-state: running;
+}
+.coca p {
+    font-family: "berlin";
+    font-size: 8.5vw;
+
+    transform: rotate(270deg);
+    margin-bottom: 80vh;
+}
+.jupiler{
     width: 4vw;
     height: 23.85vh;
+    overflow: hidden;
+}
+.jupiler div{
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee22 3s linear infinite;
+    animation-play-state: running;
+}
+.jupiler p{
+    font-family: "syncopate";
+    font-size: 4.5vw;
+    transform: rotate(270deg);
+    margin-bottom: 23vw;
+    margin-left: 0.5vw;
+
 }
 .redyellowblue{
     width: 7vw;
@@ -332,7 +432,22 @@ footer{
     position: absolute;
     margin-left: 12vw;
 }
-
+@keyframes marquee2 {
+    0% { bottom: 0%; }
+    100% { bottom: -100%; }
+}
+@keyframes marquee22 {
+    0% { bottom: 50%; }
+    100% { bottom: -150%; }
+}
+@keyframes marquee222 {
+    0% { bottom: 150%; }
+    100% { bottom: -50%; }
+}
+@keyframes marquee2222 {
+    0% { bottom: 400%; }
+    100% { bottom: -190%; }
+}
 /*  right animation*/
 .containerRight{
     display: flex;
