@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    position: fixed;
 }
 .map {
     position: absolute;
-    height: 30vw;
-    width: 60vw;
+    height: 63.8vh;
+    width: 60.1vw;
     margin-left: 19vw;
 }
 p{
@@ -36,8 +37,18 @@ footer{
     height: 20vh;
 }
 .drank{
+    overflow: hidden;
     width: 32vw;
     height: 13.3vh;
+
+}
+.drank div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 5s linear infinite;
+    animation-play-state: running;
 }
 .drank p{
     margin: 0;
@@ -45,10 +56,22 @@ footer{
     color: red;
     font-size: 15.5vh;
     margin-top: -2vh;
+
+    float: left;
 }
+
 .tabak{
     width: 34vw;
     height: 6.6vh;
+    overflow: hidden;
+}
+.tabak div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 6s linear infinite;
+    animation-play-state: running;
 }
 .tabak p{
     font-family: "Syncopate";
@@ -58,6 +81,16 @@ footer{
 .pizza{
     width: 11vw;
     height: 6.6vh;
+    overflow: hidden;
+}
+.pizza div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 7s linear infinite;
+    animation-play-state: running;
+
 }
 .pizza p{
     font-family: "stencilulregular";
@@ -71,6 +104,16 @@ footer{
     height: 6.79vh;
     margin-left: 39vw;
     margin-top: -0.1%;
+    overflow: hidden;
+}
+.tipjes div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 5s linear infinite;
+    animation-play-state: running;
+
 }
 .tipjes p{
     font-family: "ribesblack";
@@ -80,6 +123,17 @@ footer{
 .nightshop{
     width: 34vw;
     height: 6.6vh;
+
+    overflow: hidden;
+
+}
+.nightshop div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 10s linear infinite;
+    animation-play-state: running;
 }
 .nightshop p{
     font-family: "lignette";
@@ -91,6 +145,16 @@ footer{
     width: 28vw;
     margin-left: 20vw;
     height: 13.4vh;
+    overflow: hidden;
+
+}
+.samosa div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 7s linear infinite;
+    animation-play-state: running;
 }
 .samosa p{
     font-family: "blenny";
@@ -101,6 +165,16 @@ footer{
 .chips{
     width: 23vw;
     height: 6.6vh;
+    overflow: hidden;
+}
+.chips div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 5s linear infinite;
+    animation-play-state: running;
+
 }
 .chips p {
     font-family: "tephra";
@@ -114,16 +188,37 @@ footer{
     height: 6.79vh;
     margin-left: 51.5vw;
     margin-top: -0.1%;
+    overflow: hidden;
+}
+.fristi div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 4s linear infinite;
+    animation-play-state: running;
+
 }
 .fristi p {
     font-family: "engel";
     font-size: 6vh;
     color: blue;
-    margin-top: 0.8vh;
+    margin-top: 1vh;
 }
 .alcohol{
     width: 20vw;
     height: 6.7vh;
+
+    overflow: hidden;
+
+}
+.alcohol div {
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 5s linear infinite;
+    animation-play-state: running;
 }
 .alcohol p{
     font-family: "naivregular";
@@ -134,18 +229,38 @@ footer{
 .fris{
     width: 18vw;
     height: 6.6vh;
+    overflow: hidden;
+}
+.fris div {
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 5s linear infinite;
+    animation-play-state: running;
 }
 .fris p {
     font-family: "neorange";
     font-size: 6.5vh;
     color: yellow;
     margin-top: -0.4vh;
+
 }
 .rol{
     position: absolute;
     margin-left: 48vw;
     width: 20vw;
     height: 6.6vh;
+    overflow: hidden;
+
+}
+.rol div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee1 5s linear infinite;
+    animation-play-state: running;
 }
 .rol p{
     color: yellow;
@@ -162,6 +277,11 @@ footer{
     display: flex;
     flex-wrap: flex;
 }
+
+@keyframes marquee1 {
+    0% { left: -50%; }
+    100% { left: -150%; }
+  }
 /*  left animation*/
 
 .containerLeft{
@@ -208,6 +328,10 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
+.yellowb{
+    position: absolute;
+    margin-left: 12vw;
+}
 
 /*  right animation*/
 .containerRight{
@@ -232,11 +356,15 @@ footer{
     width: 5vw;
     height: 33.85vh;
 }
-.red8{
+.royco{
+    position: absolute;
+    margin-top: 23.8vh;
     width: 9vw;
     height: 40vh;
 }
 .yellow7{
+    position: absolute;
+    margin-left: 3vw;
     width: 6vw;
     height: 23.85vh;
 }
