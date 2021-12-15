@@ -31,14 +31,13 @@ window.onload = () => {
         });    
     }
 
-    function getData(){
+    function getData(data){
         fetch("https://api.mapbox.com/datasets/v1/cosimarosie/ckx5z09s606qi28pjuwu8eqq5/features?access_token=pk.eyJ1IjoiY29zaW1hcm9zaWUiLCJhIjoiY2t1d3BtYnF4MDZrcTJucXFoNGN1M3hkaCJ9.RgMCkP3mQoUKWG2O5Rw4Fw")
         .then(response => response.json())
-        .then(data => console.log("DATA!",data));
+        .then(data => console.log(data.features));
     }
     //dataset id: ckx5z09s606qi28pjuwu8eqq5
 
-        
     
       
 }
