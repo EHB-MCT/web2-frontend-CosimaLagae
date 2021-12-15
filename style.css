@@ -624,42 +624,191 @@ footer{
     display: flex;
     flex-wrap: wrap;
     width: 47vw;
+    position: absolute;
+    margin-left: 53vw;
 }
-.red9{
+.haribo{
     width: 7vw;
     height: 7vh;
+    overflow: hidden;
 }
-.red10{
+.haribo div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee44 5s linear infinite;
+    animation-play-state: running;
+}
+.haribo p{
+    font-family: "engel";
+    margin-top: 0.4vh;
+    font-size: 4vw;
+    margin-left: 2vw;
+
+}
+.bic{
     width: 34vw;
+    overflow: hidden;
 }
-.red11{
+.bic div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee4 7s linear infinite;
+    animation-play-state: running;
+}
+.bic p{
+    font-family: "blenny";
+    font-size: 20vh; /*10vw*/
+    margin-left: 3vw;
+    margin-top: -10vh;
+}
+.kinder{
     height: 7vh;
     width: 23vw;
+    overflow: hidden;
 }
-.yellow9{
+.kinder div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee4 6s linear infinite;
+    animation-play-state: running;
+}
+.kinder p{
+    font-family: "tephra";
+    font-size: 7vh;
+    margin-top: -1.3vh;
+    margin-left: 1.5vw;
+}
+.dorito{
     width: 12vw;
     height: 7vh;
+    overflow: hidden;
 }
-.yellow10{
+.dorito div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee4 5s linear infinite;
+    animation-play-state: running;
+}
+.dorito p{
+    font-family: "ribesblack";
+    font-size: 8vh;
+    margin-top: -1.2vh;
+    margin-left: 1.5vw;
+}
+.shampoo{
     height: 7vh;
     width: 10vw;
+    overflow: hidden;
 }
-.yellow11{
+.shampoo div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee444 7s linear infinite;
+    animation-play-state: running;
+}
+.shampoo p{
+    font-family: "stencilul";
+    font-size: 7vh;
+    margin-top: -1.39vh;
+    margin-left: 1.5vw;
+}
+.mentos{
     height: 9.1vh;
     width: 29vw;
+    overflow: hidden;
 }
-.blue10{
+.mentos div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee44 9s linear infinite;
+    animation-play-state: running;
+}
+.mentos p{
+    font-family: "berlin";
+    font-size: 12vh;
+    margin-top: -2vh;
+    margin-left: 2.5vw;
+}
+.malboro{
     width: 19vw;
-    height: 9vh
+    height: 9vh;
+    overflow: hidden;
 }
-.blue11{
+.malboro div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee44 7s linear infinite;
+    animation-play-state: running;
+}
+.malboro p{
+    font-family: "HVD";
+    font-size: 10vh;
+    margin-top: -2vh;
+    margin-left: 2.5vw;
+}
+.chupa{
     height: 7vh;
     width: 14vw;
+    overflow: hidden;
 }
-.blue12{
+.chupa div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee444 7s linear infinite;
+    animation-play-state: running;
+}
+.chupa p{
+    font-family: "neorange";
+    font-size: 7vh;
+    margin: -0.7vh;
+    margin-left: 2.5vw;
+}
+.papier{
     height: 9.1vh;
     width: 18vw;
+    overflow: hidden;
 }
+.papier div{
+    display: flex;
+    position: relative;
+
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee444 9s linear infinite;
+    animation-play-state: running;
+}
+.papier p{
+    font-family: "naiv";
+    font-size: 9.5vh;
+    margin-left: 3.5vw;
+}
+
+@keyframes marquee4 {
+    0% { right: 150%; }
+    100% { right: 0%; }
+  }
+  @keyframes marquee44 {
+    0% { right: 300%; }
+    100% { right: 0%; }
+  }  @keyframes marquee444 {
+    0% { right: 400%; }
+    100% { right: 0%; }
+  }
 /*  NAVIGATION CONTROLS */
 .mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon,
 .mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
