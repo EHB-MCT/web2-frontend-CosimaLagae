@@ -18,6 +18,12 @@ footer{
     display: flex;
     width: 100vw;
 }
+label{
+    font-family: "hvd";
+    color: blue;
+    font-size: 2vh;
+    border-radius: 10px;
+}
 
 .form{
     position: absolute;
@@ -25,8 +31,21 @@ footer{
     background-color: red;
     padding: 1.5%;
     margin-left: 7.5vw;
-    margin-top: 15vh;
+    margin-top: 32vh;
+
     border-radius: 20px;
+    border-style: solid;
+    border-color: blue;
+}
+.submit{
+    font-family: "hvd";
+    background-color: blue;
+    color: yellow;
+    padding: 3%;
+}
+input{
+    border-radius: 10px;
+    border-color: transparent;
 }
 
 #blue {
@@ -47,7 +66,25 @@ footer{
 #yellow p {
     color: red;
 }
+/*  MAP   */
+.mapboxgl-popup-content{
+    font-family: 'hvd';
+    font-size: 2.5vh;
+    background: blue;
+    color: yellow;
+    padding-left: 2vw;
+    padding-bottom: 3.5vh;
+}
 
+.mapboxgl-popup-close-button{
+    color: yellow;
+    padding: 5%;
+    padding-right: 7%;
+    font-size: 2vw;
+}
+.mapboxgl-popup-content{
+    border-radius: 10px;
+}
 /*  upper animation*/
 
 .container1{

@@ -1,50 +1,39 @@
 SOURCES
 
-dataset list features: 
+---> DATASET LIST FEATURES: <---
 https://docs.mapbox.com/api/maps/datasets/#list-features
 
-Geocoding api:
+
+---> GEOCODING API: <----
 https://docs.mapbox.com/playground/geocoding/?search_text=-74.00550144386382,40.719780317477586&limit=1&access_token=pk.eyJ1IjoiY29zaW1hcm9zaWUiLCJhIjoiY2t1d3BtYnF4MDZrcTJucXFoNGN1M3hkaCJ9.RgMCkP3mQoUKWG2O5Rw4Fw
 
-markers + interaction:
+
+---> MARKER + INTERACTION: <----
 https://docs.mapbox.com/help/tutorials/custom-markers-studio-video/
 
-Marquee inspo for the code:
+
+---> MARQUEE INSPO FOR THE CODE: <---
 https://codepen.io/jamesbarnett/pen/kfmKa
 
+
+---> POST API: <---
+https://googlechrome.github.io/samples/fetch-api/fetch-post.html
+
+https://www.youtube.com/watch?v=ACI8EDbaXzo&ab_channel=FredrikOsebergCodingLessons
+
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
+
+
+---> CONNECT FRONT-END TO BACK END: <---
+https://www.reddit.com/r/learnprogramming/comments/8xdh5s/how_do_you_connect_the_frontend_and_backend/
+
+https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend/68164914#68164914
+
+https://stackoverflow.com/questions/40064800/api-to-database
+
+
+
+
+
+
 &nbsp
-
-
-
-.drank{
-    overflow: hidden;
-}
-.drank div{
-    display: flex;
-    position: relative;
-
-    transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee 5s linear infinite;
-    animation-play-state: running;
-
-    //left
-    
-    position: relative;
-    transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee2 5s linear infinite;
-    animation-play-state: running;
-}
-
-.drank p{
-    padding-bottom: 16vh;
-    transform-origin: 0 0;
-    transform: rotate(270deg);
-    margin-left: -4vw;
-
-
-}
-
-@keyframes marquee {
-    0% { left: 0; }
-    100% { left: -100%; }
-  }
