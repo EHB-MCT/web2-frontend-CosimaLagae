@@ -25,7 +25,7 @@
     <img id="bluestar" src="./pic/bluestar.svg" alt="blueStar">
 
     <div class="form" id="form">
-        <form method="post" action="https://web2-nightshops.herokuapp.com/saveNightshop">
+        <form id="formElem" method="post" action="https://web2-nightshops.herokuapp.com/saveNightshop">
             <label>Id-number:</label><br>
             <input for="nsid" type="text" id="nsid" name="nsid"><br>
             <label>Name:</label><br>
@@ -39,7 +39,29 @@
         <script src="index.js"></script>  
     </div>
     <script>
-        //alert('Hello, at the moment you can only find nightshops in the center of Brussels. If you know any other Nightshop, feel free to fill in the form. Thank you!');
+        let formData = new FormData([form]);
+
+        formElem.onsubmit = async (e) => {
+          e.preventDefault();
+      
+          let response = await fetch('https://web2-nightshops.herokuapp.com/saveNightshop', {
+            method: 'POST',
+            body: new FormData(formElem)
+          });
+      
+          let result = await response.json();
+      
+          alert(result.message);
+        };    
+        getData().then(data => {
+        addDataToDom(data);
+        })
+        function addDataToDom(data){
+            document.getElementById(form).innerText = JSON.stringify(data);
+        }
+    </script>
+    <script>
+        //alert('Hello, at the moment you can only find nightshops in the center of Brussels. If you know any other Nightshop, feel free to fill in the form. Thank you! :)');
       </script>
     <header>
         <!-- Upper animation -->
