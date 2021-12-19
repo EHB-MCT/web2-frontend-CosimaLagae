@@ -18,6 +18,8 @@ footer{
     display: flex;
     width: 100vw;
 }
+
+/*  FROM    */
 label{
     font-family: "hvd";
     color: blue;
@@ -46,6 +48,26 @@ label{
 input{
     border-radius: 10px;
     border-color: transparent;
+}
+/*  STARS   */
+#bluestar{
+    position: absolute;
+    z-index: 2;
+    width: 17%;
+    animation: starmove 4s infinite;
+}
+
+#redstar{
+    position: absolute;
+    margin-top: 43vh;
+    margin-left: 81.5vw;
+    z-index: 2;
+    width: 17%;
+    animation: starmove 4s infinite;
+
+}
+@keyframes starmove {
+    50% {transform: rotate(180deg);}
 }
 
 #blue {
