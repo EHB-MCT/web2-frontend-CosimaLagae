@@ -177,7 +177,7 @@ input{
     position: absolute;
     width: 12.5vw;
     height: 6.79vh;
-    margin-left: 39vw;
+    margin-left: 38.1vw;
     margin-top: -0.1%;
     overflow: hidden;
 }
@@ -216,7 +216,7 @@ input{
 .samosa{
     position: absolute;
     width: 28vw;
-    margin-left: 20vw;
+    margin-left: 19.1vw;
     height: 13.4vh;
     overflow: hidden;
 
@@ -235,7 +235,7 @@ input{
     margin-top: -8.7vh;
 }
 .chips{
-    width: 23vw;
+    width: 22vw;
     height: 6.6vh;
     overflow: hidden;
 }
@@ -255,9 +255,9 @@ input{
 }
 .fristi{
     position: absolute;
-    width: 7.5vw;
+    width: 9.5vw;
     height: 6.79vh;
-    margin-left: 51.5vw;
+    margin-left: 50vw;
     margin-top: -0.1%;
     overflow: hidden;
 }
@@ -296,7 +296,7 @@ input{
     margin-top: -0.5vh;
 }
 .fris{
-    width: 18vw;
+    width: 19vw;
     height: 6.6vh;
     overflow: hidden;
 }
@@ -316,8 +316,8 @@ input{
 }
 .rol{
     position: absolute;
-    margin-left: 48vw;
-    width: 20vw;
+    margin-left: 47.1vw;
+    width: 21vw;
     height: 6.6vh;
     overflow: hidden;
 
@@ -362,18 +362,17 @@ input{
 .pepsi div{
     position: relative;
     transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee2 5s linear infinite;
+    animation: marquee222 5s linear infinite;
     animation-play-state: running;
 
 }
 .pepsi p{
-    padding-bottom: 16vh;
     font-family: "blenny";
-    font-size: 8vW;
+    font-size: 8vw;
     transform-origin: 0 0;
     transform: rotate(270deg);
     margin-left: -4vw;
-
+    padding-bottom: 9vw;
 }
 .cara{
     width: 5vw;
@@ -392,7 +391,7 @@ input{
     font-size: 6vw;
     margin-left: 1.5vw;
     transform: rotate(270deg);
-    margin-bottom: 16vh;
+    margin-bottom: 10vw;
 }
 .fanta{
     height: 30vh;
@@ -411,7 +410,7 @@ input{
     font-size: 5vw;
 
     transform: rotate(270deg);
-    margin-bottom: 19vh;
+    margin-bottom: 9vw;
 }
 .lays{
     width: 3vw;
@@ -431,7 +430,7 @@ input{
     margin-left: 0.2vw;
 
     transform: rotate(270deg);
-    margin-bottom: 10vh;
+    margin-bottom: 6vw;
 }
 .rizla{
     width: 7vw;
@@ -450,7 +449,7 @@ input{
 
     margin-left: 1vw;
     transform: rotate(270deg);
-    margin-bottom: 35vh;
+    margin-bottom: 15vw;
 }
 .coca{
     width: 7vw;
@@ -468,7 +467,7 @@ input{
     font-size: 8.5vw;
 
     transform: rotate(270deg);
-    margin-bottom: 80vh;
+    margin-bottom: 40vw;
 }
 .jupiler{
     width: 4vw;
@@ -538,7 +537,7 @@ input{
     margin-right: 1vw;
 
     transform: rotate(90deg);
-    margin-bottom: 50vh;
+    margin-bottom: 25.5vw;
 }
 .sig{
     width: 3vw;
@@ -556,7 +555,7 @@ input{
     font-size: 3.5vw;
 
     transform: rotate(90deg);
-    margin-bottom: 40vh;
+    margin-bottom: 19vw;
 }
 .snoep{
     height: 30vh;
@@ -567,7 +566,7 @@ input{
 .snoep div{
     position: relative;
     transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee33 6s linear infinite;
+    animation: marquee33 7s linear infinite;
     animation-play-state: running;
 }
 .snoep p{
@@ -575,7 +574,7 @@ input{
     font-size: 5.3vw;
 
     transform: rotate(90deg);
-    margin-bottom: 40vh;
+    margin-bottom: 19vw;
     margin-right: 0.3vw;
 
 }
@@ -587,7 +586,7 @@ input{
 .wc div{
     position: relative;
     transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee33 6s linear infinite;
+    animation: marquee33 7s linear infinite;
     animation-play-state: running;
 }
 .wc p{
@@ -595,7 +594,7 @@ input{
     font-size: 5.3vw;
 
     transform: rotate(90deg);
-    margin-bottom: 50vh;
+    margin-bottom: 24vw;
     margin-right: 1.5vw;
 }
 .royco{
@@ -608,7 +607,7 @@ input{
 .royco div{
     position: relative;
     transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee33 6s linear infinite;
+    animation: marquee33 7s linear infinite;
     animation-play-state: running;
 }
 .royco p{
@@ -616,7 +615,7 @@ input{
     font-size: 10vw;
 
     transform: rotate(90deg);
-    margin-bottom: 25vh;
+    margin-bottom: 11vw;
     margin-right: 1.3vw;
 }
 .redbull{
@@ -637,7 +636,7 @@ input{
     font-size: 7.5vw;
 
     transform: rotate(90deg);
-    margin-bottom: 95vh;
+    margin-bottom: 43.5vw;
     margin-right: 0.9vw;
 }
 .ijs{
@@ -650,7 +649,7 @@ input{
 .ijs div{
     position: relative;
     transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee3333 6s linear infinite;
+    animation: marquee3333 7s linear infinite;
     animation-play-state: running; 
 }
 .ijs p{
@@ -658,7 +657,7 @@ input{
     font-size: 7.5vw;
 
     transform: rotate(90deg);
-    margin-bottom: 25vh;
+    margin-bottom: 12vw;
 }
 .blueyellowred{
     display: flex;
