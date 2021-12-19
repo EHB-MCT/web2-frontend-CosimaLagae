@@ -18,6 +18,17 @@ footer{
     display: flex;
     width: 100vw;
 }
+
+.form{
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    padding: 1.5%;
+    margin-left: 7.5vw;
+    margin-top: 15vh;
+    border-radius: 20px;
+}
+
 #blue {
     background: blue;
 }

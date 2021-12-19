@@ -22,6 +22,9 @@
     <script src=""></script> 
 </head>
 <body>
+    <script>
+        //alert('Hello, at the moment you can only find nightshops in the center of Brussels. If you know any other Nightshop, feel free to fill in the form. Thank you!');
+      </script>
     <header>
         <!-- Upper animation -->
         <div class="container1">
@@ -90,6 +93,21 @@
             </div>
         </div>
     </header>
+
+    <div class="form" id="form">
+        <form method="post" action="https://web2-nightshops.herokuapp.com/saveNightshop">
+            <label for="nsid">Id-number:</label><br>
+            <input type="text" id="nsid" name="nsid"><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="adress">Adress:</label><br>
+            <input type="text" id="adress" name="adress"><br>
+            <label for="samosa1">Samosa:</label><br>
+            <input type="text" id="samosa" name="samosa"><br><br>
+            <input type="submit" value="Submit">
+        </form>   
+        <script src="index.js"></script>  
+    </div>
 
     <main>
         <!-- left animation -->
