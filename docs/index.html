@@ -27,7 +27,7 @@
     <div class="form" id="form">
         <form id="formElem" method="post" action="https://web2-nightshops.herokuapp.com/saveNightshop">
             <label>Id-number:</label><br>
-            <input for="nsid" type="text" id="nsid" name="nsid"><br>
+            <input for="nsid" type="number" id="nsid" name="nsid"><br>
             <label>Name:</label><br>
             <input for="name" type="text" id="name" name="name"><br>
             <label>Adress:</label><br>
@@ -38,27 +38,28 @@
         </form>   
         <script src="index.js"></script>  
     </div>
-    <script>
-        let formData = new FormData([form]);
+    <script type="text/javascript">
+        let formData = new FormData(document.getElementById("formElem"));
 
         formElem.onsubmit = async (e) => {
-          e.preventDefault();
-      
-          let response = await fetch('https://web2-nightshops.herokuapp.com/saveNightshop', {
-            method: 'POST',
-            body: new FormData(formElem)
-          });
-      
-          let result = await response.json();
-      
-          alert(result.message);
-        };    
+            async function getData(){
+            let response = await fetch('https://web2-nightshops.herokuapp.com/saveNightshop', {
+                method: 'POST',
+                body: new FormData(formElem)
+            });
+            if (response.status == 200){
+                return await response.json();
+            }else{
+                console.log('An error has occured')
+            }
+        }
         getData().then(data => {
-        addDataToDom(data);
+            addDataToDom(data);
         })
         function addDataToDom(data){
             document.getElementById(form).innerText = JSON.stringify(data);
         }
+
     </script>
     <script>
         //alert('Hello, at the moment you can only find nightshops in the center of Brussels. If you know any other Nightshop, feel free to fill in the form. Thank you! :)');
